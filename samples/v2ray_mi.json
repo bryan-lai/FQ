@@ -29,7 +29,7 @@
             "address" : "<v2ray server ip>",
             "users" : [
               {
-                "id" : "<you id credential>",
+                "id" : "<your id credential>",
                 "alterId" : 64,
                 "security" : "auto",
                 "level" : 0
