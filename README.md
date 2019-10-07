@@ -59,7 +59,7 @@ iptables -t nat -A PREROUTING -p tcp -j V2RAY
 - 其中1099是我配置的v2ray监听端口，可用根据你自己情况修改
 ### 启动V2ray
 `nohup <v2ray path>/v2ray --config=<v2ray配置文件path>/v2ray_mi.json &`
-- <v2ray path> 和<v2ray配置文件path> 根据自己情况修改
+- 其中<v2ray path> 和<v2ray配置文件path> 根据自己情况修改
   
 ### 重启后失效
 将脚本加入启动脚本，防止路由器重启后失效
